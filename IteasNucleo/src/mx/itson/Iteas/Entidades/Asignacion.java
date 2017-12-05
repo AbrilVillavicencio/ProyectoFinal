@@ -18,7 +18,7 @@ public class Asignacion {
     public String id;
     public String nombre;
     public String apellido;
-
+    public String descrpicion;
     /**
      * @return the nombreAsignacion
      */
@@ -101,6 +101,20 @@ public class Asignacion {
      */
     public void setApellido(String apellido) {
         this.apellido = apellido;
+    }
+
+    /**
+     * @return the descrpicion
+     */
+    public String getDescrpicion() {
+        return descrpicion;
+    }
+
+    /**
+     * @param descrpicion the descrpicion to set
+     */
+    public void setDescrpicion(String descrpicion) {
+        this.descrpicion = descrpicion;
     }
     
     
